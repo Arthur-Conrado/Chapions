@@ -1,0 +1,74 @@
+li.menu {               /*item da lista classe menu*/
+    font-size: 30px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    display: block;		 /*exibir em bloco*/
+    padding: 8px 16px;
+    color: #FFF;
+     
+  }
+  body {
+    margin: 0;
+    background-color: #d13639;
+    color: #FFF;
+  }
+  main{
+    min-height: calc(100vh - 211px - 58px);
+  }
+  ul {
+	  
+    list-style-type: none; /*retira o marcador da lista*/
+    margin: 0;             /*margem 0*/
+    padding: 0;            /*margem interna do componente 0*/
+    width: 15%;            /*largura da lista 20% do tamanho da tela*/
+    position: fixed;       /*posição fixa*/
+    height: 100%;          /*altura 100% da tela*/ 
+    overflow: auto;        /*caso necessário aparecerá uma barra de scroll*/
+  }
+  li a {                  /*item da lista - link*/
+    display: block;       /*exibir em bloco*/
+    color: #FFF;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 20px;
+    padding: 8px 16px;
+    text-decoration: none;  /*sem decoração de texto para o link - sem sublinhado*/
+  }
+  #conteudo {
+    margin-left: 25%;
+    padding: 1px 16px;
+    height: 1000px;
+    background-color: #d13639;
+ }
+ .linha {
+    border: 5px;
+    background-color: gray;
+    border-radius: 10px;
+}
+ div.galeria {
+    margin: 10px;
+    border: 0px solid #ccc;
+    border-radius: 10px;
+    float: left;
+    width: 30%;
+    height: 30%;
+    background-color: #d68182;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  div.galeria img {
+    width: 100%;
+    height: auto;
+    background-position: center; /*centraliza imagem*/
+    background-size: cover; /*imagem cobre toda área do div*/
+  } 
+  footer{
+    text-align: center;
+    background-color: #d13639;
+    color:#FFF;
+    width: 25%;
+    height: 100px;
+    position: fixed;
+    bottom: 2px;
+    left: 0;
+  } 
+ 
